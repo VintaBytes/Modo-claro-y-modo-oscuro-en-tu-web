@@ -14,3 +14,19 @@ También he preparado un video, en el que te guiaré a través de los pasos nece
 <a href="https://youtu.be/c25vFjKxpmY](https://youtu.be/3yIdFVgEBz8">Modo Oscuro en Sitios Web: Cómo Implementarlo desde Cero</a>
 
 <img src="https://github.com/VintaBytes/Modo-claro-y-modo-oscuro-en-tu-web/blob/main/portada.jpeg?raw=true" width="320px">
+
+---
+
+## Explicación del Funcionamiento
+
+1. **HTML (`index.html`)**: Define la estructura de la página con un checkbox para activar/desactivar el modo oscuro y enlaza los archivos CSS y JavaScript.
+   
+2. **CSS (`style.css`)**: Define estilos para el modo claro y oscuro, incluyendo transiciones suaves entre los modos.
+   
+3. **JavaScript (`script.js`)**: Controla la lógica del interruptor de modo oscuro, utilizando `localStorage` para recordar la preferencia del usuario entre sesiones.
+
+### Pasos del Script JavaScript
+
+- Obtiene referencias al checkbox y al elemento `<body>`.
+- Verifica si el modo oscuro está habilitado en `localStorage` y, de ser así, aplica el modo oscuro y marca el checkbox.
+- Añade un evento al checkbox para alternar entre modos claro y oscuro, y guarda la preferencia en `localStorage`.
