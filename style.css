@@ -1,0 +1,18 @@
+/* Estilo de transición para el elemento <body>. */
+body {
+    /* Se aplica una transición suave de 1 segundo para los cambios 
+    en el color de fondo (background-color) y el color del texto 
+    (color). Esto significa que cualquier cambio en estos estilos se
+    realizará de manera gradual en 1 segundo. */
+    transition: background-color 2s, color 2s;
+}
+
+/* Estilo aplicado cuando la clase 'modo-oscuro' está presente en el
+ elemento <body>. */
+.modo-oscuro {
+    /* Cambia el color de fondo del elemento a un tono de gris oscuro */
+    background-color: #222222;
+    
+    /* Cambia el color del texto a 'aliceblue' (un tono de blanco) */
+    color: aliceblue;
+}
